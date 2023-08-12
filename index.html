@@ -44,7 +44,10 @@
                                             <input class="w-100 form-control" id="cvc" type="tel" inputmode="numeric" pattern="[0-9\s]{3,4}" autocomplete="cvc-number" maxlength="4" placeholder="0000" onkeypress="return onlyNumberKey(event)">
                                         </div>
                                         <div class="col-4 form-group">
-                                            <input class="w-100 form-control" id="amount" type="tel" inputmode="numeric" pattern="[0-9\s]{1,9}" maxlength="9" placeholder="Amount" onkeypress="return onlyNumberKey(event)">
+                                            <div class="d-flex">
+                                                <strong>$</strong>
+                                                <input class="w-100 form-control" id="amount" type="tel" inputmode="numeric" pattern="[0-9\s]{1,9}" maxlength="9" placeholder="Amount" onkeypress="return onlyNumberKey(event)">
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row">
